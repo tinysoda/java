@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Author {
   String name;
   String age;
@@ -47,7 +49,18 @@ public class Author {
   }
 
   public void input() {
+    Scanner scan = new Scanner(System.in);
     System.out.println("Nhap ten:");
+    setName(scan.nextLine());
+    System.out.println("Nhap tuoi:");
+    setAge(scan.nextLine());
+    System.out.println("Nhap penname:");
+    setPenname(scan.nextLine());
+
+  }
+
+  public void display() {
+    System.out.println(this);
   }
 
   @Override
