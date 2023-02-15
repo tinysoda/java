@@ -8,7 +8,7 @@ public class Main {
         int option;
         do {
             System.out.println("Choose: ");
-            System.out.println("1: Them Sach\n2: Hien Sach\n3:Them tac gia\n4: hien tac gia\n5: thoat!");
+            System.out.println("1: Them Sach\n2: Hien Sach\n3:Them tac gia\n4: hien tac gia\n5: thoat!1");
             option = Integer.parseInt(Scanner.nextLine());
             switch (option) {
                 case 1:
