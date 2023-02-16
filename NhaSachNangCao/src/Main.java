@@ -47,11 +47,7 @@ public class Main {
                     String penname = scan.nextLine();
                     for (Author author : AuthorList) {
                         if (author.penname == penname) {
-                            for (Book book : BookList) {
-                                if (book.penName == penname) {
-                                    book.display();
-                                }
-                            }
+                            System.out.println("!@#");
                         }
                     }
 
