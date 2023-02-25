@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
         int option;
-        
+        int count;
         System.out.println("Nhap vao lua chon: ");
         Account account = new Account();
         System.out.println("Credentials:");
