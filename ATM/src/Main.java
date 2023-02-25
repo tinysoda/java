@@ -25,7 +25,7 @@ public class Main {
 
             switch (option) {
                 case 1:
-                account.name=
+                account.input();
                     break;
                 case 2:
 
